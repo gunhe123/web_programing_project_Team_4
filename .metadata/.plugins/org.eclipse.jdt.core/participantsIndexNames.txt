@@ -1,0 +1,5 @@
+INDEX VERSION 1.126
+C:\Users\myhome\Documents\GitHub\web_programing_project_Team_4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\81931886.index
+\EX1\src
+C:\Users\myhome\Documents\GitHub\web_programing_project_Team_4\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3571113288.index
+\EX1\src

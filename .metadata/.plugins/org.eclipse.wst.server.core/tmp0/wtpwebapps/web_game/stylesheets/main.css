@@ -7,15 +7,19 @@ html{color:#000;
 	margin:0 auto;
 }
 #main_content{
+	position:relative;
 	float: left;
 }
 
 #sidebar{
+	margin-top: 15px;
 	background:rgb(200,200,200);
-	width: 150px;
+	width:120px;
 	float: left;
 }
 #login_box{
+	margin-top: 15px;
+	padding-top:15px;
 	background-color:rgb(71,163,232);
 	height: 150px;
 }
