@@ -219,3 +219,190 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.
 
 !ENTRY org.eclipse.ui 4 4 2012-11-11 00:43:14.960
 !MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.next: {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectNextHandler} vs {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectNextXMLHandler}
+!SESSION 2012-11-11 00:49:53.446 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_09
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:50:31.298
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.enclosing: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectEnclosingXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectEnclosingHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:50:31.303
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.previous: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectPreviousXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectPreviousHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:50:31.305
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.cleanup.document: {org.eclipse.wst.html.ui.internal.edit.ui.CleanupDocumentHandler} vs {org.eclipse.wst.css.ui.internal.handlers.CleanupDocumentHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:50:31.306
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.last: {org.eclipse.wst.sse.ui.internal.handlers.StructuredSelectHistoryHandler} vs {org.eclipse.wst.sse.ui.internal.handlers.StructuredSelectHistoryHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:50:31.308
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.next: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectNextXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectNextHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:50:42.794
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.enclosing: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectEnclosingXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectEnclosingHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:50:42.796
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.previous: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectPreviousXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectPreviousHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:50:42.797
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.cleanup.document: {org.eclipse.wst.html.ui.internal.edit.ui.CleanupDocumentHandler} vs {org.eclipse.wst.css.ui.internal.handlers.CleanupDocumentHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:50:42.799
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.last: {org.eclipse.wst.sse.ui.internal.handlers.StructuredSelectHistoryHandler} vs {org.eclipse.wst.sse.ui.internal.handlers.StructuredSelectHistoryHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:50:42.800
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.next: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectNextXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectNextHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:50:57.010
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.enclosing: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectEnclosingXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectEnclosingHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:50:57.011
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.previous: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectPreviousXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectPreviousHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:50:57.013
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.cleanup.document: {org.eclipse.wst.html.ui.internal.edit.ui.CleanupDocumentHandler} vs {org.eclipse.wst.css.ui.internal.handlers.CleanupDocumentHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:50:57.015
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.last: {org.eclipse.wst.sse.ui.internal.handlers.StructuredSelectHistoryHandler} vs {org.eclipse.wst.sse.ui.internal.handlers.StructuredSelectHistoryHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:50:57.016
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.next: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectNextXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectNextHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:52:13.695
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.enclosing: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectEnclosingXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectEnclosingHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:52:13.697
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.previous: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectPreviousXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectPreviousHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:52:13.698
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.cleanup.document: {org.eclipse.wst.html.ui.internal.edit.ui.CleanupDocumentHandler} vs {org.eclipse.wst.css.ui.internal.handlers.CleanupDocumentHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:52:13.700
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.last: {org.eclipse.wst.sse.ui.internal.handlers.StructuredSelectHistoryHandler} vs {org.eclipse.wst.sse.ui.internal.handlers.StructuredSelectHistoryHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:52:13.701
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.next: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectNextXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectNextHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:52:41.314
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.enclosing: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectEnclosingXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectEnclosingHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:52:41.316
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.previous: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectPreviousXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectPreviousHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:52:41.317
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.cleanup.document: {org.eclipse.wst.html.ui.internal.edit.ui.CleanupDocumentHandler} vs {org.eclipse.wst.css.ui.internal.handlers.CleanupDocumentHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:52:41.319
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.last: {org.eclipse.wst.sse.ui.internal.handlers.StructuredSelectHistoryHandler} vs {org.eclipse.wst.sse.ui.internal.handlers.StructuredSelectHistoryHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:52:41.320
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.next: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectNextXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectNextHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:54:43.133
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.enclosing: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectEnclosingXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectEnclosingHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:54:43.135
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.previous: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectPreviousXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectPreviousHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:54:43.137
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.cleanup.document: {org.eclipse.wst.html.ui.internal.edit.ui.CleanupDocumentHandler} vs {org.eclipse.wst.css.ui.internal.handlers.CleanupDocumentHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:54:43.139
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.last: {org.eclipse.wst.sse.ui.internal.handlers.StructuredSelectHistoryHandler} vs {org.eclipse.wst.sse.ui.internal.handlers.StructuredSelectHistoryHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:54:43.141
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.next: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectNextXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectNextHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:55:34.364
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.enclosing: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectEnclosingXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectEnclosingHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:55:34.366
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.previous: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectPreviousXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectPreviousHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:55:34.367
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.cleanup.document: {org.eclipse.wst.html.ui.internal.edit.ui.CleanupDocumentHandler} vs {org.eclipse.wst.css.ui.internal.handlers.CleanupDocumentHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:55:34.369
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.last: {org.eclipse.wst.sse.ui.internal.handlers.StructuredSelectHistoryHandler} vs {org.eclipse.wst.sse.ui.internal.handlers.StructuredSelectHistoryHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 00:55:34.370
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.next: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectNextXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectNextHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:00:34.329
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.enclosing: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectEnclosingXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectEnclosingHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:00:34.331
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.previous: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectPreviousXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectPreviousHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:00:34.333
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.cleanup.document: {org.eclipse.wst.html.ui.internal.edit.ui.CleanupDocumentHandler} vs {org.eclipse.wst.css.ui.internal.handlers.CleanupDocumentHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:00:34.335
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.last: {org.eclipse.wst.sse.ui.internal.handlers.StructuredSelectHistoryHandler} vs {org.eclipse.wst.sse.ui.internal.handlers.StructuredSelectHistoryHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:00:34.337
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.next: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectNextXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectNextHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:03:32.533
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.enclosing: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectEnclosingXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectEnclosingHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:03:32.535
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.previous: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectPreviousXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectPreviousHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:03:32.537
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.cleanup.document: {org.eclipse.wst.html.ui.internal.edit.ui.CleanupDocumentHandler} vs {org.eclipse.wst.css.ui.internal.handlers.CleanupDocumentHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:03:32.539
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.last: {org.eclipse.wst.sse.ui.internal.handlers.StructuredSelectHistoryHandler} vs {org.eclipse.wst.sse.ui.internal.handlers.StructuredSelectHistoryHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:03:32.542
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.next: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectNextXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectNextHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:03:54.894
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.enclosing: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectEnclosingXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectEnclosingHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:03:54.897
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.previous: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectPreviousXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectPreviousHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:03:54.899
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.cleanup.document: {org.eclipse.wst.html.ui.internal.edit.ui.CleanupDocumentHandler} vs {org.eclipse.wst.css.ui.internal.handlers.CleanupDocumentHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:03:54.901
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.last: {org.eclipse.wst.sse.ui.internal.handlers.StructuredSelectHistoryHandler} vs {org.eclipse.wst.sse.ui.internal.handlers.StructuredSelectHistoryHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:03:54.903
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.next: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectNextXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectNextHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:07:56.474
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.enclosing: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectEnclosingXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectEnclosingHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:07:56.476
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.previous: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectPreviousXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectPreviousHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:07:56.480
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.cleanup.document: {org.eclipse.wst.html.ui.internal.edit.ui.CleanupDocumentHandler} vs {org.eclipse.wst.css.ui.internal.handlers.CleanupDocumentHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:07:56.482
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.last: {org.eclipse.wst.sse.ui.internal.handlers.StructuredSelectHistoryHandler} vs {org.eclipse.wst.sse.ui.internal.handlers.StructuredSelectHistoryHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:07:56.483
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.next: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectNextXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectNextHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:11:34.655
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.enclosing: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectEnclosingXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectEnclosingHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:11:34.657
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.previous: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectPreviousXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectPreviousHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:11:34.659
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.cleanup.document: {org.eclipse.wst.html.ui.internal.edit.ui.CleanupDocumentHandler} vs {org.eclipse.wst.css.ui.internal.handlers.CleanupDocumentHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:11:34.660
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.last: {org.eclipse.wst.sse.ui.internal.handlers.StructuredSelectHistoryHandler} vs {org.eclipse.wst.sse.ui.internal.handlers.StructuredSelectHistoryHandler}
+
+!ENTRY org.eclipse.ui 4 4 2012-11-11 01:11:34.662
+!MESSAGE Conflicting handlers for org.eclipse.wst.sse.ui.structure.select.next: {org.eclipse.wst.xml.ui.internal.handlers.StructuredSelectNextXMLHandler} vs {org.eclipse.wst.css.ui.internal.handlers.StructuredSelectNextHandler}

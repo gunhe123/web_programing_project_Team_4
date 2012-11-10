@@ -1,0 +1,27 @@
+html{color:#000;
+	background:rgb(112,146,190);
+	padding:20px 0;
+	}
+#wrap{
+	width: 960px;
+	margin:0 auto;
+}
+#sidebar{
+	background:rgb(200,200,200);
+	width: 150px;
+	float: left;
+}
+#login_box{
+	background-color:rgb(71,163,232);
+}
+#main_content{
+	float: none;
+}
+#menubar ul {
+	
+}
+#menubar ul li{
+	margin:10px,10px,10px,10px;
+	padding:10px,10px,10px,10px;
+	float: left;
+	}

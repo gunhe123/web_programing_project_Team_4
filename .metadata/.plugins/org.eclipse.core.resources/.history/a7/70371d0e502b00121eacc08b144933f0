@@ -1,0 +1,45 @@
+html{color:#000;
+	background:rgb(112,146,190);
+	padding:20px 0;
+	}
+#wrap{
+	width: 960px;
+	margin:0 auto;
+}
+#main_content{
+	float: left;
+}
+
+#sidebar{
+	background:rgb(200,200,200);
+	width: 150px;
+	float: left;
+}
+#login_box{
+	background-color:rgb(71,163,232);
+	height: 150px;
+}
+#sns{
+	background-color:rgb(71,163,232);
+	height: 150px;
+}
+#menubar ul li{
+	margin:10px,10px,10px,10px;
+	padding:10px,10px,10px,10px;
+	float: left;
+	list-style: none;
+	}
+#menubar ul li a{
+	color:#fff; background-color:#4682b4;
+	
+	display:block;
+	width:120px;
+	text-align:center;
+	
+	font: bold 12px/30px Tahoma;
+	text-decoration:none;
+	margin-right:1px;
+}
+#notice{
+	float: none;
+}

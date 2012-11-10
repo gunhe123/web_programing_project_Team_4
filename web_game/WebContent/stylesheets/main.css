@@ -6,6 +6,10 @@ html{color:#000;
 	width: 960px;
 	margin:0 auto;
 }
+#main_content{
+	float: left;
+}
+
 #sidebar{
 	background:rgb(200,200,200);
 	width: 150px;
@@ -13,15 +17,41 @@ html{color:#000;
 }
 #login_box{
 	background-color:rgb(71,163,232);
+	height: 150px;
 }
-#main_content{
-	float: none;
-}
-#menubar ul {
-	
+#sns{
+	background-color:rgb(71,163,232);
+	height: 150px;
 }
 #menubar ul li{
-	margin:10px,10px,10px,10px;
-	padding:10px,10px,10px,10px;
 	float: left;
+	list-style: none;
 	}
+#menubar ul li a{
+	color:#fff; background-color:#4682b4;
+	
+	display:block;
+	width:120px;
+	text-align:center;
+	padding:0px 15px; 
+	font: bold 12px/30px Tahoma;
+	text-decoration:none;
+	margin-right:1px;
+}
+#notice{
+	margin-left: 10px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom:10px;
+	padding-left: 20px;
+	background-color:rgb(181,193,252);
+	float: none;
+}
+#free_board{
+	margin-left: 10px;
+	padding-top: 20px;
+	padding-bottom:10px;
+	padding-left: 20px;
+	background-color:rgb(181,193,252);
+	float: none;
+}
