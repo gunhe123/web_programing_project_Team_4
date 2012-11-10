@@ -15,13 +15,10 @@ html{color:#000;
 	background-color:rgb(71,163,232);
 }
 #main_content{
-	float: none;
+	float: left;
 }
 #menubar ul {
-	
-}
-#menubar ul li{
 	margin:10px,10px,10px,10px;
 	padding:10px,10px,10px,10px;
-	float: left;
-	}
+	 float: left;
+	 }
