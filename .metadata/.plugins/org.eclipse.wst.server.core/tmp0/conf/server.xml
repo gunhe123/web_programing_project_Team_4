@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log." suffix=".txt"/>
 
-      <Context docBase="C:\Users\myhome\Documents\GitHub\web_programing_project_Team_4\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\myhome\Documents\GitHub\web_programing_project_Team_4\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\web_game" path="/web_game" reloadable="true" source="org.eclipse.jst.jee.server:web_game"/><Context docBase="C:\Users\myhome\Documents\GitHub\web_programing_project_Team_4\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\EX1" path="/EX1" reloadable="true" source="org.eclipse.jst.jee.server:EX1"/></Host>
+      <Context docBase="C:\Users\myhome\Documents\GitHub\web_programing_project_Team_4\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\myhome\Documents\GitHub\web_programing_project_Team_4\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\web_game" path="/web_game" reloadable="true" source="org.eclipse.jst.jee.server:web_game"/></Host>
     </Engine>
   </Service>
 </Server>
