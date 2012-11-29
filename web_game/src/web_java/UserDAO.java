@@ -5,6 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.naming.*;
@@ -12,8 +13,8 @@ import javax.sql.*;
 
 import web_java.User;;
 
-
 public class UserDAO {
+	private List<User> list;
 	public static DataSource getDataSource() throws NamingException {
 		Context initCtx = null;
 		Context envCtx = null;
@@ -104,12 +105,12 @@ public class UserDAO {
 
 			// 질의 준비
 			stmt = conn.prepareStatement(
-					"INSERT INTO users(userid, email, pwd) " +
+					"INSERT INTO users(id, password, email) " +
 					"VALUES(?, ?, ?)"
 					);
 			stmt.setString(1,  user.getId());
-			stmt.setString(2,  user.getEmail());
-			stmt.setString(3,  user.getPassword());
+			stmt.setString(2,  user.getPassword());
+			stmt.setString(3,  user.getEmail());
 		
 			
 			// 수행
@@ -123,9 +124,8 @@ public class UserDAO {
 		
 		return (result == 1);
 	}
-	@SuppressWarnings("null")
 	public static List<User> getUserlist()throws NamingException, SQLException{
-		List<User> asd=null;
+		List<User> asd=new ArrayList<User>();
 		User temp;
 		Connection conn = null;
 		Statement stmt = null;
@@ -135,18 +135,18 @@ public class UserDAO {
 		
 		try {
 			conn = ds.getConnection();
-
 			// 질의 준비
 			stmt = conn.createStatement();
 
 			
 			// 수행
-			rs = stmt.executeQuery("Select * FROM users");
+			rs=stmt.executeQuery("select * from users");
 			while(rs.next()){
-				temp=new User(rs.getString("Id"),
+				temp=new User(rs.getString("id"),
 						rs.getString("password"),rs.getString("email"));
 				asd.add(temp);
 			}
+
 		} finally {
 			// 무슨 일이 있어도 리소스를 제대로 종료
 			if (rs != null) try{rs.close();} catch(SQLException e) {}

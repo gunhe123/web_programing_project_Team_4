@@ -7,11 +7,12 @@
 <title>마법사의 탑 -web game</title>
 <link href="stylesheets/main.css" rel="stylesheet" type="text/css">
 <script src="http://code.jquery.com/jquery-latest.js"></script>
+
 </head>
 <body>	
 <div id="wrap">	
   <div id="top_logo">
-    <a href="index.html"><img src="images/mario.png" alt="Web Game Logo"></a>
+    <a href="webMain.jsp"><img src="images/mario.png" alt="Web Game Logo"></a>
   </div>
   <div id="content">
     <jsp:include page="share/sidebar.jsp"></jsp:include>
