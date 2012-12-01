@@ -31,13 +31,13 @@
 			</table>
 
  	   		<input type="submit" class="btn btn-primary" value="로그인">
-			<input type="button" value="회원가입" onclick="location.href='user?op=signin'";> 
+			<input type="button" value="회원가입" onclick="location.href='user?op=signin'"> 
 			</form>
 
 
 			<% } else { %>
 			  안녕하세요. <b><%=session.getAttribute("S_Id") %></b>님<br>
-			<input type="button" value="로그아웃" onclick="location.href='user?op=logout'";>   
+			<input type="button" value="로그아웃" onclick="location.href='user?op=logout'">   
 			<% } %>
 			</div>
 			<div id="sns">

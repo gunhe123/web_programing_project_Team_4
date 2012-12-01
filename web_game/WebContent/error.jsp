@@ -12,13 +12,14 @@
   <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-에러메시지창이다
+
   <div class="container">
     <div class="alert alert-error">
- 
+ 		 아래와 같은 오류로 등록이 불가능 합니다.
           <c:forEach var="msg" items="${errorMsgs}">
             <li>${msg}</li>
           </c:forEach>
+          <input type="button" value="돌아가기 " onclick="location.href='user?op=signin'";> 
 
     </div>
   </div>

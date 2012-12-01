@@ -17,10 +17,10 @@
 	conn=DriverManager.getConnection(dbUrl, dbUser, dbPassword);
 	
 	stmt = conn.createStatement();
-	rs=stmt.executeQuery("select * from users");
+	rs=stmt.executeQuery("select * from character");
 	
 	while(rs.next()){
-		out.println("아이디를 내놔라"+rs.getString("id"));
+		out.println("아이디를 내놔라"+rs.getString("name"));
 	}
 	} catch (SQLException e) {
 		

@@ -1,0 +1,41 @@
+#wrap{
+	width: 700px;
+	height: 540px;
+	background-color: #04356C;
+}
+#main_game{
+	width:600px;
+	height: 440px;
+	background-color: #0D56A6;
+	margin-left: 10px;
+}
+#playerchat{
+	widht:700px;
+	height:100px;
+	background-color: #687AD3;
+}
+#gamelabel{
+	margin-left: 30px;
+	padding-top: 20px;
+	width: 600px;
+	height: 90px;
+	background-color: #0D567A6;
+	font-size: 40px;
+	font-style: italic;
+}
+#밀어내기{
+	height: 100px;
+}
+#character_select{
+	display:block;
+	margin-left:20px;
+	width: 200px;
+	height: 150px;
+	background-color: #698AD3;
+	float:left;
+}
+#playerchar{
+	width: 70px;
+	height: 70px;
+	float:left;
+}
