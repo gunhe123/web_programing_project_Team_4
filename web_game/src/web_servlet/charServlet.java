@@ -14,6 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import web_java.CharDAO;
+import web_java.UserDAO;
 import web_java.character;
 
 
@@ -79,6 +80,7 @@ public class charServlet extends HttpServlet {
 			throws ServletException, IOException {
 		String op=req.getParameter("op");
 		String actionUrl="";
+		List<String> errorMsgs=new ArrayList<>();
 		HttpSession session=req.getSession(true);
 		String userid=(String) session.getAttribute(("S_Id"));
 		if(op.equals("signup")){
@@ -90,16 +92,24 @@ public class charServlet extends HttpServlet {
 						, Integer.parseInt(req.getParameter("avata"))));
 				actionUrl="game?op=main";
 			} catch (NumberFormatException e) {
+				errorMsgs.add(e.getMessage());
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} catch (SQLException e) {
+				errorMsgs.add(e.getMessage());
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} catch (NamingException e) {
+				errorMsgs.add(e.getMessage());
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			
+			if(errorMsgs.isEmpty()){
+				actionUrl="prologue.jsp";
+			}else{
+				req.setAttribute("errorMsgs", errorMsgs);
+				actionUrl = "error.jsp";
+			}
 		}else{
 			actionUrl="user";
 		}

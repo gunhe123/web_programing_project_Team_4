@@ -6,7 +6,7 @@
 #main_game{
 	width:600px;
 	height: 440px;
-	background-color: #0D56A6;
+	background-color: rgb(94,109,168);
 	margin-left: 10px;
 }
 #playerchat{
@@ -26,16 +26,28 @@
 #밀어내기{
 	height: 100px;
 }
+#charnono{
+	width:200px;
+	font-size: 10px;
+}
+#greem{
+	width:540px;
+	height: 500px;
+}
 #character_select{
+	
 	display:block;
 	margin-left:20px;
 	width: 200px;
-	height: 150px;
+	height: 210px;
 	background-color: #698AD3;
 	float:left;
 }
 #playerchar{
 	width: 70px;
 	height: 70px;
+	float:left;
+}
+#buttons{
 	float:left;
 }

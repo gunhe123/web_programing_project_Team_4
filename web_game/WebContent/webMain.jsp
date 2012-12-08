@@ -4,6 +4,7 @@
 <html>
 <head>	
 <meta charset="utf-8">	
+<script src="js/jquery-1.8.2.min.js"></script>
 <title>마법사의 탑 -web game</title>
 <link href="stylesheets/main.css" rel="stylesheet" type="text/css">
 <script src="http://code.jquery.com/jquery-latest.js"></script>
@@ -12,7 +13,7 @@
 <body>	
 <div id="wrap">	
   <div id="top_logo">
-    <a href="user?op=main"><img src="images/Mario.png" alt="Web Game Logo"></a>
+    <a href="user?op=main"><img src="images/Title.png" alt="Web Game Logo"></a>
   </div>
   <div id="content">
     <jsp:include page="share/sidebar.jsp"></jsp:include>
@@ -58,4 +59,5 @@
   </div>	
 </div>	
 </body>
+
 </html>

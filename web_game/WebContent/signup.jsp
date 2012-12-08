@@ -12,7 +12,7 @@
 <body>	
 <div id="wrap">	
   <div id="top_logo">
-    <a href="user?op=main"><img src="images/mario.png" alt="Web Game Logo"></a>
+    <a href="user?op=main"><img src="images/Title.png" alt="Web Game Logo"></a>
   </div>
   <div id="content">
     <jsp:include page="share/sidebar.jsp"></jsp:include>
