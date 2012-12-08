@@ -52,6 +52,8 @@ $(function(){
 			$('#introContent'+intro).fadeOut();
 			intro++;
 			$('#introContent'+intro).fadeIn();
+		}else{
+			location='game?op=map';
 		}
 		return false;
 	});

@@ -6,7 +6,7 @@
     <script src="js/jquery-1.8.2.min.js"></script>
 
 <meta charset="utf-8">	
-  <script src="js/jquery-1.8.2.min.js"></script>
+
     </head>
     <body>
 <div id="menubar">

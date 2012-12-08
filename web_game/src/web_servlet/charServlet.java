@@ -59,6 +59,8 @@ public class charServlet extends HttpServlet {
 					String name=req.getParameter("id");
 					CharDAO.remove(name);
 					actionUrl="game?op=main";
+				}else if(op.equals("map")){
+					actionUrl="Map.jsp";
 				}else{
 					actionUrl="user";
 				}
