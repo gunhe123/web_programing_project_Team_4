@@ -17,13 +17,13 @@ import web_java.User;
 import web_java.UserDAO;
 
 @WebServlet("/user")
-public class testservlet extends HttpServlet {
+public class UserSerblet extends HttpServlet {
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 6717906924013902238L;
-	public testservlet() {
+	public UserSerblet() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
