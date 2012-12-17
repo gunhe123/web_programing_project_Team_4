@@ -27,8 +27,7 @@ CREATE TABLE game_player (
 	valid_flag boolean DEFAULT 1 NOT NULL,
 	avata int NOT NULL,
 	armor int DEFAULT 0 NOT NULL,
-	deffence int DEFAULT 0 NOT NULL
-
+	weapon int DEFAULT 0 NOT NULL
 );
 
 
